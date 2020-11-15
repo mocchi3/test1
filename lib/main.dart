@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
       home: ChangeNotifierProvider<CounterModel>(
         create: (_) => CounterModel(),
         child: Scaffold(
-          appBar: AppBar(title: Text('Demo')),
+          appBar: AppBar(title: Text('Demo Test')),
           body: Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
